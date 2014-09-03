@@ -19,6 +19,6 @@ w = Canvas(master,
            height=canvas_height)
 w.pack()
 
-checkered(w,10)
+checkered(w,100)
 
 mainloop()
