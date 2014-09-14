@@ -1,10 +1,10 @@
 __author__ = 'tanvirshahjada'
-from tkinter import *
+
 root = Tk()
 
 
 label1 = Label( root, text="Month(MM)")
-E1 = Entry(root, bd =5)
+E1 = Entry(root, bd =5)from tkinter import *
 
 label2 = Label( root, text="Day(DD)")
 E2 = Entry(root, bd =5)

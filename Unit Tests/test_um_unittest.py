@@ -1,6 +1,8 @@
 __author__ = 'tanvirshahjada'
 import unittest
+
 from unnecessary_math import multiply1
+
 
 class TestUM(unittest.TestCase):
 
