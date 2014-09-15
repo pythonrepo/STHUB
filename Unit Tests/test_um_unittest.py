@@ -1,5 +1,6 @@
 __author__ = 'tanvirshahjada'
 import unittest
+import xmlrunner
 
 from unnecessary_math import multiply1
 
@@ -15,6 +16,7 @@ class TestUM(unittest.TestCase):
         self.assertEqual(multiply1('a',4), 'aaaa')
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main(testRunner=xmlrunner.XMLTestRunner(output='test-reports'))
 
 
+12
